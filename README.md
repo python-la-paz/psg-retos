@@ -43,11 +43,25 @@ Lee atentamente cada enunciado y respeta la estructura de carpetas y archivos so
 
 ## 🧩 Retos
 
+### 01 - Git y GitHub (4 puntos)
+
+**Reto 01:** Realiza un **Fork** de este repositorio a tu cuenta personal de GitHub.
+
+**Reto 02:** Clona tu repositorio (resultado del fork) en tu máquina local.
+
+**Reto 03:** Crea una nueva rama con el siguiente formato: `tu-usuario-de-github`
+
+**Reto 04:** Una vez que hayas completado todos los retos, publica esta rama en tu repositorio personal.
+
+📌 **Importante**: Todos los retos deben estar en la rama que creaste en esta sección.
+
+---
+
 ### 00 - Estructura de Carpetas y Archivos (7 puntos)
 
-**Reto 01:** Crea la siguiente estructura de carpetas y archivos para organizar los retos:
+**Reto 05:** Crea la siguiente estructura de carpetas y archivos para organizar los retos:
 
-```
+``` bash
 retos_01
 ├── ejercicio_01.md
 ├── ejercicio_02.md
@@ -73,68 +87,87 @@ retos_07
 
 ---
 
-### 01 - Git y GitHub (4 puntos)
-
-**Reto 02:** Realiza un **Fork** de este repositorio a tu cuenta personal de GitHub.
-
-**Reto 03:** Clona tu repositorio (resultado del fork) en tu máquina local.
-
-**Reto 04:** Crea una nueva rama con el siguiente formato: `tu-usuario-de-github`
-
-**Reto 05:** Una vez que hayas completado todos los retos, publica esta rama en tu repositorio personal.
-
-📌 **Importante**: Todos los retos deben estar en la rama que creaste en esta sección.
-
----
-
 ### 02 - Markdown (retos\_01)
 
-**Reto 06:** `ejercicio_01.md`: Escribe tu **biografía** utilizando:
+**Reto 06 -** `ejercicio_01.md` 
 
-  * Encabezados
-  * Negritas
-  * Cursivas
-  * Listas numeradas y no numeradas
-  * Imágenes
+Escribe tu **biografía** utilizando:
 
-**Reto 07:**  `ejercicio_02.md`: Resume tu **libro favorito** utilizando:
+* Encabezados
+* Negritas
+* Cursivas
+* Listas numeradas y no numeradas
+* Imágenes
 
-  * Encabezados
-  * Listas numeradas y no numeradas
-  * Enlaces
-  * Imágenes
-  * Citas
+**Reto 07 -**  `ejercicio_02.md`
+
+Resume tu **libro favorito** utilizando:
+
+* Encabezados
+* Listas numeradas y no numeradas
+* Enlaces
+* Imágenes
+* Citas
 
 ---
 
 ### 03 - Tipos de Datos en Python (retos\_02)
 
-**Reto 07:**  `ejercicio_01.py`: Crea un programa que:
+**Reto 08 -**  `ejercicio_01.py`
 
-  * Reciba dos números enteros por teclado
-  * Muestre su suma, resta, multiplicación y división
+Crea un programa que reciba dos números enteros por teclado y realice las siguientes operaciones y retorne su suma, resta, multiplicación y división.
 
-    ```
-    📥 Ejemplo de entrada:
-    
-    10
-    5
-    ```
+**📥 Ejemplo de entrada:**
 
-    🖥️  Ejemplo de salida:
+``` bash
+10
+5
+```
 
-    ```
-    Suma: 15
-    Resta: 5
-    Multiplicación: 50
-    División: 2.0
-    ```
+**🖥️ Ejemplo de salida:**
+
+``` bash
+Suma: 15
+Resta: 5
+Multiplicación: 50
+División: 2.0
+```
 
 🚫 **Restricciones**:
 
 * No puedes usar estructuras de control (`if`, `for`, `while`)
 * No puedes definir funciones (`def`, `lambda`)
 * No puedes usar f-strings (`f""`, `format()`, `%`)
+
+**Reto 09 -**  `ejercicio_02.py`
+
+Un jardin cuenta con un sistema de riego automático que se activa cuando hay luz solar o cuando la humedad del suelo es menor al 30%, pero no debe activarse si ambas condiciones se cumplen al mismo tiempo. Crea un programa que reciba dos valores booleanos: `luz_solar` y un valor entero `humedad` (0-100) y retorne si el sistema de riego debe activarse o no.
+
+**📥 Ejemplo de entrada:**
+
+``` bash
+True
+25
+
+False
+20
+```
+
+**🖥️ Ejemplo de salida:**
+
+``` bash
+El sistema de riego no se activa.
+El sistema de riego se activa.
+```
+
+🚫 **Restricciones**:
+
+* Solo puedes utilizar operadores lógicos: `and`, `or`, `not`
+* No puedes usar el operador `^` (xor)
+* No puedes usar estructuras de control (`if`, `for`, `while`)
+* No puedes definir funciones (`def`, `lambda`)
+* No puedes usar f-strings (`f""`, `format()`, `%`)
+
 
 
 #### 04 - Estructuras de datos en Python
