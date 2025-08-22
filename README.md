@@ -625,9 +625,7 @@ Operación no valida.
 
 ----
 
-## 📝 Contribuciones
-
-## Contributors
+## 📝 Contribuidores
 
 <a href="https://github.com/python-la-paz/psg-retos/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=python-la-paz/psg-retos" />
