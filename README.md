@@ -223,8 +223,8 @@ Anita lava la tina
 **🖥️ Ejemplo de salida:**
 
 ``` bash
-Cantidad de palabras: 5
-Cantidad de vocales: 7
+Cantidad de palabras: 4
+Cantidad de vocales: 8
 Es palíndromo: True
 ```
 
