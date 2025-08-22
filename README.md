@@ -5,6 +5,8 @@ Bienvenida/o al repositorio de retos para postulantes al **Python Study Group Ob
 
 Aquí encontrarás una serie de desafíos diseñados para evaluar si cuentas con las habilidades necesarias para ser parte del **Python Study Group OOP**.
 
+Recuerda revisar el [código de conducta de la comunidad Python La Paz](https://pylapaz.org/coc/) antes de comenzar.
+
 ---
 
 ## 🧠 ¿Qué habilidades necesitas para unirte?
@@ -31,17 +33,42 @@ Cada reto incluye:
 
 * 📄 **Enunciado del reto**: descripción del problema a resolver
 * 🧮 **Ejemplos de entrada y salida**: para guiarte en la lógica esperada
-* 🚫 **Restricciones**:: condiciones que debes respetar al resolverlo
+* 🚫 **Restricciones**: condiciones que debes respetar al resolverlo
+
+## 📝 Puntuación de los retos
+
+La puntuación de los retos es la siguiente:
+
+* **Git y GitHub**: 4 puntos
+* **Estructura de Carpetas y Archivos**: 6 puntos
+* **Markdown**: 2 puntos
+* **Tipos de Datos en Python**: 3 puntos
+* **Estructuras de Datos en Python**: 4 puntos
+* **Estructuras de Control en Python**: 3 puntos
+* **Funciones en Python**: 3 puntos
+* **Manejo de Excepciones en Python**: 1 punto
+* **Total**: 26 puntos
+
+Para aprobar los retos debes haber resuelto exitosamente el **80%** de los retos, lo que equivale a **21 puntos**.
+
+## 📅 Fechas importantes
+
+* **Apertura del formulario de postulación**: 22 de Agosto del 2025
+* **Cierre del formulario de postulación**: 06 de Septiembre del 2025
 
 ---
 
-## 🚀 Instrucciones Generales
+## 🚀 Instrucciones de entrega
 
-Lee atentamente cada enunciado y respeta la estructura de carpetas y archivos solicitada.
+* Una vez que hayas completado todos los retos deberás ingresar la pagina de postulación de Python Study Group OOP y enviar el enlace a tu repositorio de GitHub en el formulario de postulación.
+* El formulario de postulación estará abierta hasta las **23:00 (GMT-04) del 06 de septiembre del 2025**.
+* Si tienes alguna duda puede escribirnos al correo electrónico **<hello@pylapaz.org>**.
 
 ---
 
 ## 🧩 Retos
+
+Lee atentamente cada enunciado y respeta la estructura de carpetas y archivos solicitada. Recuerda que cada reto tiene restricciones específicas que debes cumplir.
 
 ### Git y GitHub - 4 puntos
 
@@ -53,7 +80,10 @@ Lee atentamente cada enunciado y respeta la estructura de carpetas y archivos so
 
 * **Reto 04:** Una vez que hayas completado todos los retos, publica esta rama en tu repositorio personal.
 
-📌 **Importante**: Todos los retos deben estar en la rama que creaste en esta sección.
+📌 **Importante**
+
+* Todas tus soluciones a los retos deben estar en la rama que creaste en esta sección.
+* Debes realizar los commits de cada retos para dar seguimiento a tu progreso y evitar contratiempos.
 
 ---
 
@@ -145,7 +175,7 @@ División: 2.0
 
 #### Reto 09 -  `ejercicio_02.py`
 
-Un jardin cuenta con un sistema de riego automático que se activa cuando hay luz solar o cuando la humedad del suelo es menor al 30%, pero no debe activarse si ambas condiciones se cumplen al mismo tiempo. Crea un programa que reciba un valor booleano `luz_solar` y un valor entero `humedad` (0-100) y retorne si el sistema de riego debe activarse o no.
+Un jardín cuenta con un sistema de riego automático que se activa cuando hay luz solar o cuando la humedad del suelo es menor al 30%, pero no debe activarse si ambas condiciones se cumplen al mismo tiempo. Crea un programa que reciba un valor booleano `luz_solar` y un valor entero `humedad` (0-100) y retorne si el sistema de riego debe activarse o no.
 
 **📥 Ejemplo de entrada:**
 
@@ -174,7 +204,7 @@ El sistema de riego se activa.
 
 #### Reto 10 -  `ejercicio_03.py`
 
-Crea un programam que reciba una frase y retorne:
+Crea un programa que reciba una frase y retorne:
 
 * La cantidad de palabras que contiene
 * La cantidad de vocales que contiene
@@ -191,7 +221,7 @@ Anita lava la tina
 ``` bash
 Cantidad de palabras: 5
 Cantidad de vocales: 7
-Es palindromo: True
+Es palíndromo: True
 ```
 
 🚫 **Restricciones**:
@@ -273,11 +303,11 @@ Productos ordenados por precio: Galletas, Leche, Pan, Queso
 
 #### Reto 13 -  `ejercicio_06.py`
 
-Jose y Carlos utilizan Spotipy para escuchar musica. Cada uno tiene su propia lista de reproducción con sus canciones favoritas.
+Jose y Carlos utilizan Spotipy para escuchar música. Cada uno tiene su propia lista de reproducción con sus canciones favoritas.
 
 Jose quiere saber qué canciones tienen en común con Carlos y cuáles son exclusivas de cada uno.
 
-Si su cantidad de canciones en comun es mayor al 50% de sus canciones totales, entonces son "Almas Gemelas Musicales", de lo contrario son "Amigos con Buen Gusto".
+Si su cantidad de canciones en común es mayor al 50% de sus canciones totales, entonces son "Almas Gemelas Musicales", de lo contrario son "Amigos con Buen Gusto".
 
 Crea un programa que reciba dos listas de canciones (una para cada usuario) y retorne:
 
@@ -449,7 +479,7 @@ Cajas empacadas para Plagas: 7
 
 #### Reto 18 -  `ejercicio_11.py`
 
-Crea una funcion que reciba un número entero, retorne su factorial y su doble.
+Crea una función que reciba un número entero, retorne su factorial y su doble.
 
 El factorial de un número `n` es el producto de todos los números enteros desde `1` hasta `n`. Por ejemplo, el factorial de `5` es `5 * 4 * 3 * 2 * 1 = 120`.
 
@@ -476,7 +506,7 @@ Factorial: 479001600, Doble: 958003200
 
 #### Reto 19 -  `ejercicio_12.py`
 
-Un pastelero necesita estadarizar el formato de sus recetas. Para empezar necesita estandarizar los ingredientes. Para lograrlo debes crear una funcion que reciba como argumentos los ingredientes de una receta y retorne la lista de ingredientes estandarizada en el siguiente formato:
+Un pastelero necesita estandarizar el formato de sus recetas. Para empezar necesita estandarizar los ingredientes. Para lograrlo debes crear una función que reciba como argumentos los ingredientes de una receta y retorne la lista de ingredientes estandarizada en el siguiente formato:
 
 ``` markdown
 Ingredientes
@@ -487,7 +517,7 @@ Ingredientes
 * Chocolate 100 gramos
 ```
 
-Usa el siguiente diccionatio de equivalencias para estandarizar las unidades:
+Usa el siguiente diccionario de equivalencias para estandarizar las unidades:
 
 ``` python
 equivalencias = {
@@ -535,18 +565,18 @@ Ingredientes
 
 #### Reto 20 -  `ejercicio_13.py`
 
-Crea una funcion anonima que reciba una frase y devuelva las palabras ordenadas alfabéticamente, sin repetir palabras y en minusculas.
+Crea una función anónima que reciba una frase y devuelva las palabras ordenadas alfabéticamente, sin repetir palabras y en minúsculas.
 
 **📥 Ejemplo de entrada:**
 
 ``` bash
-Las orugas comen hojas, los pajaros comen orugas y los gatos comen pajaros.
+Las orugas comen hojas, los pájaros comen orugas y los gatos comen pájaros.
 ```
 
 **🖥️ Ejemplo de salida:**
 
 ``` bash
-['comen', 'gatos', 'hojas', 'las', 'los', 'orugas', 'pajaros']
+['comen', 'gatos', 'hojas', 'las', 'los', 'orugas', 'pájaros']
 ```
 
 🚫 **Restricciones**:
@@ -558,7 +588,7 @@ Las orugas comen hojas, los pajaros comen orugas y los gatos comen pajaros.
 
 #### Reto 21 -  `ejercicio_14.py`
 
-Crea una calculador interactiva que permita calcular la suma `+`, resta `-`, multiplicacion `*` y division `/` de dos numero que pueden ser enteros o flotantes.
+Crea una calculador interactiva que permita calcular la suma `+`, resta `-`, multiplicación `*` y division `/` de dos numero que pueden ser enteros o flotantes.
 
 Las operaciones que se ingresan tienen el formato `numero1, numero2, operador` hasta que el usuario ingrese "salir".
 
@@ -583,12 +613,33 @@ abc, 5, +
 ``` bash
 15.0
 No hay suficientes elementos para realizar la operación.
-Operacion no valida.
+Operación no valida.
 No se puede dividir por cero.
-Operacion no valida.
-Operacion no valida.
+Operación no valida.
+Operación no valida.
 ```
 
 🚫 **Restricciones**:
 
 * No puedes utilizar las funciones `map`, `filter` o `reduce`
+
+----
+
+## 📝 Contribuciones
+
+## Contributors
+
+<a href="https://github.com/python-la-paz/psg-retos/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=python-la-paz/psg-retos" />
+</a>
+
+### Con mucho ❤️ Python La Paz 🐍
+
+[![Pagina Web](https://img.shields.io/badge/Web-Python%20La%20Paz-blue.svg)](https://pylapaz.org/)
+[![Comunidad WhatsApp](https://img.shields.io/badge/Comunidad-WhatsApp-green.svg)](https://chat.whatsapp.com/JmcjxMqqH5NDmh5APFWahM)
+[![Comunidad en Discord](https://img.shields.io/badge/Comunidad-Discord-blue.svg)](https://discord.gg/TV5tHvdUKt)
+
+[![Facebook](https://img.shields.io/badge/Facebook-Python%20La%20Paz-blue.svg)](https://www.facebook.com/PythonLaPaz)
+[![Twitter](https://img.shields.io/badge/Twitter-Python%20La%20Paz-blue.svg)](https://twitter.com/PythonLaPaz)
+[![Instagram](https://img.shields.io/badge/Instagram-Python%20La%20Paz-blue.svg)](https://instagram.com/pythonlapaz)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Python%20La%20Paz-blue.svg)](https://www.linkedin.com/company/python-la-paz/)
