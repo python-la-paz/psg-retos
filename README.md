@@ -51,6 +51,10 @@ La puntuación de los retos es la siguiente:
 
 Para aprobar los retos debes haber resuelto exitosamente el **80%** de los retos, lo que equivale a **21 puntos**.
 
+📌 **Importante**
+
+El objetivo de estos retos es evaluar tus conocimientos y habilidades de programación en Python, así como tu capacidad para resolver problemas de manera eficiente, por lo tanto **si se detecta el uso de herramientas de IA para resolver los retos, se considerará una falta grave y se descalificará tu postulación**.
+
 ## 📅 Fechas importantes
 
 * **Apertura del formulario de postulación**: 22 de Agosto del 2025
@@ -623,7 +627,7 @@ Operación no valida.
 
 * No puedes utilizar las funciones `map`, `filter` o `reduce`
 
-----
+---
 
 ## 📝 Contribuidores
 
