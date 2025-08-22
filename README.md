@@ -5,7 +5,7 @@ Bienvenida/o al repositorio de retos para postulantes al **Python Study Group Ob
 
 Aquí encontrarás una serie de desafíos diseñados para evaluar si cuentas con las habilidades necesarias para ser parte del **Python Study Group OOP**.
 
-Recuerda revisar el [código de conducta de la comunidad Python La Paz](https://pylapaz.org/coc/) antes de comenzar.
+Recuerda revisar el [código de conducta de la comunidad Python La Paz](https://pylapaz.org/coc/) y los [términos y condiciones de Python Study Group 2025](https://pylapaz.org/python-study-group-2025/) antes de comenzar.
 
 ---
 
