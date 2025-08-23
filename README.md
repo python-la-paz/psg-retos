@@ -64,7 +64,7 @@ El objetivo de estos retos es evaluar tus conocimientos y habilidades de program
 
 ## 🚀 Instrucciones de entrega
 
-* Una vez que hayas completado todos los retos deberás ingresar la pagina de postulación de Python Study Group OOP y enviar el enlace a tu repositorio de GitHub en el formulario de postulación.
+* Una vez que hayas completado todos los retos deberás ingresar la pagina de postulación de Python Study Group OOP y enviar el enlace a tu repositorio de GitHub en el [formulario de postulación](https://users.pylapaz.org/event/68a7fc1cd58a2a8519f42cdd).
 * El formulario de postulación estará abierta hasta las **23:00 (GMT-04) del 06 de septiembre del 2025**.
 * Si tienes alguna duda puede escribirnos al correo electrónico **<hello@pylapaz.org>**.
 
