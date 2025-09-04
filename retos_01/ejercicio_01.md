@@ -1,7 +1,7 @@
-#Jhoseph Caceres Aramayo
-**Develop**
+# Jhoseph Caceres Aramayo
+## Develop 
 
-**TECNOLOGIAS**
+## TECNOLOGIAS
 
 1. TypeScrip
 2. Python
