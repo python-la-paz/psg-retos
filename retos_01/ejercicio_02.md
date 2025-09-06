@@ -5,11 +5,12 @@
 **En Bolivia No Hay Racismo Indios De  ~~Mierda~~** – *Carlos Macusaya Cruz* 
 
 
----------
+
+## Enlaces recomendadas
 [Una reseña del libro](https://oxxxi.wordpress.com/2020/08/17/resena-en-torno-a-en-bolivia-no-hay-racismo-indios-de-mierda-de-carlos-macusaya-por-wim-kamerbeek/) 
 
 [Biblioteca de la Editorial Jichha](https://jichha.blogspot.com/2014/08/biblioteca.html)
----------
+
 
 
 ## Impresión personal
@@ -37,8 +38,8 @@ El libro realmente te atrapa, y lo valioso es que te invita a detenerte un momen
 
 
 ## Imágenes
-![Portada del libro](./psg_portada.jpg) 
-![Autor del libro](./psg_autor.jpg)  
+![Portada del libro](./psg_portada.jpeg) 
+![Autor del libro](./psg_autor.jpeg)  
 
 
 
