@@ -27,13 +27,12 @@ def factorial_y_doble(n):
     factorial = 1
     for i in range(1, n + 1):
         factorial *= i
-    doble = n * 2
-    return factorial, doble
+    return factorial
 
-while True:
-    entrada = input().strip()
-    if entrada.lower() == "":
-        break
-    n = int(entrada)
-    fact, dob = factorial_y_doble(n)
-    print("Factorial:", fact, ", Doble:", dob)
+entrada = input().strip()
+#Entrada
+n = int(entrada)
+fact = factorial_y_doble(n)
+doble = fact * 2
+#Salida
+print("Factorial:", fact, ", Doble:", doble)

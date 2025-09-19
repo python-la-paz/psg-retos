@@ -40,9 +40,9 @@ stock = {
 
 # Entrada
 entrada = input().split(", ")
-medicamento, cantidad = entrada[0], int(entrada[1])
+medicamentos, cantidad = entrada[0], int(entrada[1])
 
-datos = stock.get(medicamento)
+datos = stock.get(medicamentos)
 
 mensaje = (
     datos
@@ -51,7 +51,7 @@ mensaje = (
          and (
              "Total de la compra: " + str(round(datos["precio"] * cantidad, 2))
              + (stock.update({
-                medicamento: {
+                medicamentos: {
                     "cantidad": datos["cantidad"] - cantidad, 
                     "precio": datos["precio"]
                     }

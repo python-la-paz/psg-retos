@@ -54,12 +54,12 @@
 #     No puedes utilizar excepciones (try, except)
 
 equivalencias = {
-    "tz": "tazas",
-    "cda": "cucharadas",
-    "l": "litros",
-    "gr": "gramos",
-    "kg": "kilogramos",
-    "u": "unidades"
+    "tz": ("taza", "tazas"),
+    "cda": ("cucharada", "cucharadas"),
+    "l": ("litro", "litros"),
+    "gr": ("gramo", "gramos"),
+    "kg": ("kilogramo", "kilogramos"),
+    "u": ("unidad", "unidades")
 }
 
 def estandarizar_receta(cadena):
@@ -78,24 +78,24 @@ def estandarizar_receta(cadena):
                 numero += c
             else:
                 unidad += c
-        
+        unidad = unidad.strip().lower()
+
         if unidad in equivalencias:
-            unidad = equivalencias[unidad]
-        
-        resultado.append("* " + nombre + " " + numero + " " + unidad)
-    
-   
+            singular, plural = equivalencias[unidad]
+            if numero == "1":
+                unidad_pl = singular
+            else:
+                unidad_pl = plural
+        else:
+            unidad_pl = unidad  
+
+        resultado.append("* " + nombre + " " + numero + " " + unidad_pl)
+
     bloque = "Ingredientes\n------------\n" + "\n".join(resultado)
     return bloque
 
 
-
-while True:
-    entrada = input().strip()
-    if entrada == "":
-        break
-    print(estandarizar_receta(entrada))
-    print() 
-
+entrada = input().strip()
+print(estandarizar_receta(entrada))
 
 

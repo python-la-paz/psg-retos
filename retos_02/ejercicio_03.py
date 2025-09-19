@@ -29,7 +29,13 @@ frase = input()
 
 cantidad_palabras = len(frase.split())
 
-cantidad_vocales = sum(letra.lower() in "aeiou" for letra in frase)
+cantidad_vocales = (
+    frase.lower().count("a") +
+    frase.lower().count("e") +
+    frase.lower().count("i") +
+    frase.lower().count("o") +
+    frase.lower().count("u")
+)
 
 frase_limpia = "".join(frase.lower().split())
 es_palindromo = frase_limpia == frase_limpia[::-1]

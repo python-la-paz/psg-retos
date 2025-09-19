@@ -16,10 +16,13 @@
 #     No puedes utilizar las funciones map, filter o reduce
 #     No puedes utilizar excepciones (try, except)
 
-procesar = lambda frase: sorted(list(set(frase.lower()
+procesar = lambda frase: sorted(list(set(
+                                        w for w in frase.lower()
                                          .replace(",", "")
                                          .replace(".", "")
-                                         .split())))
+                                         .split()
+                                         if w != "y"
+                                         )))
 
 entrada = input().strip()
 

@@ -25,21 +25,15 @@
 # Operación no valida.
 # No se puede dividir por cero.
 # Operación no valida.
-# Operación no valida.
 
 # 🚫 Restricciones:
 
 #     No puedes utilizar las funciones map, filter o reduce
 
-# Reto 21 - ejercicio_14.py
 
-while True:
-    entrada = input().strip()
-    
-    if entrada.lower() == "":
-        break
+entrada = input().strip()
 
-    try:
+try:
         partes = [x.strip() for x in entrada.split(",")]
         
         if len(partes) < 3:
@@ -61,10 +55,9 @@ while True:
             print(n1 / n2)
         else:
             print("Operación no valida.")
-    
-    except ValueError:
+except ValueError:
         print("Operación no valida.")
-    except ZeroDivisionError:
+except ZeroDivisionError:
         print("No se puede dividir por cero.")
-    except IndexError:
+except IndexError:
         print("No hay suficientes elementos para realizar la operación.")
